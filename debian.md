@@ -15,7 +15,12 @@ deb http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmwa
 
 # steam
 
+https://wiki.debian.org/Steam
+
 # vscode
 ``` /etc/apt/sources.d/
 deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main
 ```
+## vscode extensions
+    Code Runner: For running code snippets easily.
+    GitLens: Enhances Git capabilities in VSCode.
