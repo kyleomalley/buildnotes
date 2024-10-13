@@ -1,3 +1,14 @@
+# /etc/apt/sources.list
+```
+deb http://deb.debian.org/debian bookworm contrib main non-free-firmware
+deb http://deb.debian.org/debian bookworm-updates contrib main non-free-firmware
+deb http://deb.debian.org/debian bookworm-backports contrib main non-free-firmware
+deb http://deb.debian.org/debian-security bookworm-security contrib main non-free-firmware
+
+deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
+
+```
+
 # sudo
 ```
 su -
@@ -6,12 +17,7 @@ usermod -aG sudo your_username
 
 # nvidia
 https://wiki.debian.org/NvidiaGraphicsDrivers#bookworm-535
-Note: SecureBoot being enabled will require extra steps to sign the driver. 
-
-```/etc/apt/sources.list
-# Debian Bookworm
-deb http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
-```
+Note: SecureBoot being enabled will require extra steps to sign the driver (via dkms).
 
 # steam
 
