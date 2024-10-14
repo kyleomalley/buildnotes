@@ -44,3 +44,11 @@ sudo apt update && sudo apt install github-desktop
     GitLens: Enhances Git capabilities in VSCode.
 
 # Keyboard Settings
+
+
+# ~/.ssh/config
+Host *
+    IdentityFile ~/.ssh/id_ed25519_sk
+    SecurityKeyProvider=sk
+    CachePublicKeyTimeout 3600
+
