@@ -15,7 +15,5 @@ certbot certonly --dns-cloudflare -d box1.ihl.fivetuple.com --dns-cloudflare-cre
 certbot certificates
 
 
-
-
 virsh metadata rocky8-2024-10-13 --config --key tags --uri http://fivetuple.com/tags --edit
 virsh metadata rocky8-2024-10-13 --config --key tags --uri http://fivetuple.com/tags
