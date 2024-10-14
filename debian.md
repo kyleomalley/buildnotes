@@ -47,8 +47,5 @@ sudo apt update && sudo apt install github-desktop
 
 
 # ~/.ssh/config
-Host *
-    IdentityFile ~/.ssh/id_ed25519_sk
-    SecurityKeyProvider=sk
-    CachePublicKeyTimeout 3600
+ssh-add ~/.ssh/id_ed25519_sk
 
