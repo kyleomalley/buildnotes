@@ -1,3 +1,6 @@
+# apt install
+apt install yq -y
+
 # /etc/apt/sources.list
 ```
 deb http://deb.debian.org/debian bookworm contrib main non-free-firmware
