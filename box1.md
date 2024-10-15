@@ -19,3 +19,6 @@ certbot certificates
 virsh metadata rocky8-2024-10-13 --config --key tags --uri http://fivetuple.com/tags --edit
 virsh metadata rocky8-2024-10-13 --config --key tags --uri http://fivetuple.com/tags
 ```
+# sysprep
+
+sudo virt-sysprep -a rocky8-2024-10-13-clone-3.qcow2   --operations logfiles,ssh-hostkeys,net-hostname,net-hwaddr,tmp-files,user-account
